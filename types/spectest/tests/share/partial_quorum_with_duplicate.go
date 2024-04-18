@@ -1,9 +1,9 @@
 package share
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // PartialQuorumWithDuplicate tests msg with unique f+1 signers (but also including duplicates)

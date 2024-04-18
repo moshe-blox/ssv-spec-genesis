@@ -2,8 +2,8 @@ package consensusdata
 
 import (
 	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // SyncCommitteeContributionNoJustifications tests an invalid consensus data with no sync committee contribution pre-consensus justifications

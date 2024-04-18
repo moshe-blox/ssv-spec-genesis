@@ -1,6 +1,6 @@
 package signedssvmsg
 
-import "github.com/bloxapp/ssv-spec/types"
+import "github.com/bloxapp/ssv-spec-genesis/types"
 
 // EmptySignature tests an invalid SignedSSVMessageTest with empty signature
 func EmptySignature() *SignedSSVMessageTest {

@@ -1,14 +1,14 @@
 package proposal
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // InvalidRoundChangeJustificationPrepared tests a proposal for > 1 round, prepared previously but one of the round change justifications has validRoundChange != nil
-// TODO: make sure it does what it used to do before (https://github.com/bloxapp/ssv-spec/pull/156#discussion_r1113040758)
+// TODO: make sure it does what it used to do before (https://github.com/bloxapp/ssv-spec-genesis/pull/156#discussion_r1113040758)
 func InvalidRoundChangeJustificationPrepared() tests.SpecTest {
 	pre := testingutils.BaseInstance()
 	ks := testingutils.Testing4SharesSet()

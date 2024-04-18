@@ -2,7 +2,8 @@ package encryption
 
 import (
 	"fmt"
-	"github.com/bloxapp/ssv-spec/types"
+
+	"github.com/bloxapp/ssv-spec-genesis/types"
 	"github.com/herumi/bls-eth-go-binary/bls"
 )
 

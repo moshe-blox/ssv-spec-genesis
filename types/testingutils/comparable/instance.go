@@ -1,8 +1,8 @@
 package comparable
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 )
 
 func SetMessages(instance *qbft.Instance, messages []*types.SSVMessage) {

@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	ssz "github.com/ferranbt/fastssz"

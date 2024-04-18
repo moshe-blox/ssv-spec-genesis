@@ -3,10 +3,10 @@ package valcheckduty
 import (
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/bloxapp/ssv-spec/ssv/spectest/tests"
-	"github.com/bloxapp/ssv-spec/ssv/spectest/tests/valcheck"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/ssv/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/ssv/spectest/tests/valcheck"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // WrongDutyType tests duty.Type not attester

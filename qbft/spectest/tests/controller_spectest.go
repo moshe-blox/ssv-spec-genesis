@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
-	typescomparable "github.com/bloxapp/ssv-spec/types/testingutils/comparable"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
+	typescomparable "github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
 )
 
 type DecidedState struct {

@@ -2,9 +2,9 @@ package partialsigmessage
 
 import (
 	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // InconsistentSignedMessage tests SignedPartialSignatureMessage where the signer is not the same as the signer in messages

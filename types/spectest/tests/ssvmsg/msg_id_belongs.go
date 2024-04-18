@@ -1,8 +1,8 @@
 package ssvmsg
 
 import (
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // MsgIDBelongs tests msg id belonging to validator id

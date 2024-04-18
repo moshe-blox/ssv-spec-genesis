@@ -1,9 +1,9 @@
 package futuremsg
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // ValidMsg tests future msg valid msg. This is a valid msg that is not yet ready to be processed.

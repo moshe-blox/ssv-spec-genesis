@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bloxapp/ssv-spec/ssv"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
-	"github.com/bloxapp/ssv-spec/types/testingutils/comparable"
+	"github.com/bloxapp/ssv-spec-genesis/ssv"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
 )
 
 type StartNewRunnerDutySpecTest struct {

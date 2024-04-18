@@ -6,8 +6,8 @@ import (
 	"crypto/rsa"
 	"crypto/sha256"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 	"github.com/herumi/bls-eth-go-binary/bls"
 )
 

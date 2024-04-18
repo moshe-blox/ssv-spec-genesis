@@ -1,8 +1,8 @@
 package qbft
 
 import (
-	"github.com/bloxapp/ssv-spec/p2p"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/p2p"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 )
 
 type Round uint64

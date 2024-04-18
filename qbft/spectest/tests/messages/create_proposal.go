@@ -1,7 +1,7 @@
 package messages
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
 )
 
 // CreateProposal tests creating a proposal msg, not previously prepared

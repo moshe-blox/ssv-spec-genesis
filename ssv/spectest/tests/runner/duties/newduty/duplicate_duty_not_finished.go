@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/ssv"
-	"github.com/bloxapp/ssv-spec/ssv/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/ssv"
+	"github.com/bloxapp/ssv-spec-genesis/ssv/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // DuplicateDutyNotFinished is a test that runs the following scenario:

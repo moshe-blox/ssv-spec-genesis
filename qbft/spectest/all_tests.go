@@ -1,19 +1,19 @@
 package spectest
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/commit"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/controller/decided"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/controller/futuremsg"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/controller/latemsg"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/controller/processmsg"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/messages"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/prepare"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/proposal"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/proposer"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/roundchange"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/startinstance"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests/timeout"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/commit"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/controller/decided"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/controller/futuremsg"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/controller/latemsg"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/controller/processmsg"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/messages"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/prepare"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/proposal"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/proposer"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/roundchange"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/startinstance"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests/timeout"
 )
 
 var AllTests = []tests.TestF{

@@ -5,9 +5,9 @@ import (
 
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/bloxapp/ssv-spec/ssv/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/ssv/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 )
 
 // BlindedRunnerAcceptsNormalBlock tests a full happy flow for a proposer runner that produces blinded blocks but receives as proposal a normal block

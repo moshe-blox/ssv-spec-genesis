@@ -1,11 +1,11 @@
 package prepare
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
-	"github.com/bloxapp/ssv-spec/types/testingutils/comparable"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
 )
 
 // PrepareQuorumTriggeredTwice tests triggering prepare quorum twice by sending > 2f+1 prepare messages

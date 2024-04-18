@@ -1,8 +1,8 @@
 package startinstance
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
 )
 
 // LowerHeight tests starting an instance a height lower than previous height

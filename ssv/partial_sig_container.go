@@ -3,7 +3,7 @@ package ssv
 import (
 	"encoding/hex"
 
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 	"github.com/pkg/errors"
 )
 

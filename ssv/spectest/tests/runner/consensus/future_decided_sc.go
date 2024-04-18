@@ -4,12 +4,12 @@ import (
 	"github.com/attestantio/go-eth2-client/spec"
 	"github.com/herumi/bls-eth-go-binary/bls"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/ssv"
-	ssvcomparable "github.com/bloxapp/ssv-spec/ssv/spectest/comparable"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
-	"github.com/bloxapp/ssv-spec/types/testingutils/comparable"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/ssv"
+	ssvcomparable "github.com/bloxapp/ssv-spec-genesis/ssv/spectest/comparable"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
 )
 
 // futureDecidedSyncCommitteeContributionSC returns runner with 2 stored instances.

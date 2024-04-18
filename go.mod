@@ -1,4 +1,4 @@
-module github.com/bloxapp/ssv-spec
+module github.com/bloxapp/ssv-spec-genesis
 
 go 1.19
 

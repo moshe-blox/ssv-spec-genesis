@@ -1,8 +1,8 @@
 package startinstance
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
 )
 
 // EqualHeightNoRunningInstance tests starting an instance for height equal to current without a running instance

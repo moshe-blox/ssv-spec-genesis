@@ -1,11 +1,12 @@
 package partialsigmessage
 
 import (
-	"github.com/bloxapp/ssv-spec/types"
-	comparable2 "github.com/bloxapp/ssv-spec/types/testingutils/comparable"
-	"github.com/stretchr/testify/require"
 	reflect2 "reflect"
 	"testing"
+
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	comparable2 "github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
+	"github.com/stretchr/testify/require"
 )
 
 type EncodingTest struct {

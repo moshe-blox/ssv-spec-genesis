@@ -1,11 +1,11 @@
 package timeout
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/qbft/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
-	"github.com/bloxapp/ssv-spec/types/testingutils/comparable"
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/bloxapp/ssv-spec-genesis/qbft/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils"
+	"github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
 )
 
 // Round2 tests calling UponRoundTimeout for round 2, testing state and broadcasted msgs

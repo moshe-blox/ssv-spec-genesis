@@ -1,9 +1,10 @@
 package tests
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/bloxapp/ssv-spec-genesis/qbft"
+	"github.com/stretchr/testify/require"
 )
 
 // MsgSpecTest tests encoding and decoding of a msg

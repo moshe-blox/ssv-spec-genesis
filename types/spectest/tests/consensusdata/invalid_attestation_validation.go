@@ -1,6 +1,6 @@
 package consensusdata
 
-import "github.com/bloxapp/ssv-spec/types/testingutils"
+import "github.com/bloxapp/ssv-spec-genesis/types/testingutils"
 
 // InvalidAttestationValidation tests an invalid consensus data with AttestationData
 func InvalidAttestationValidation() *ConsensusDataTest {

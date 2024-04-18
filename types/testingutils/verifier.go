@@ -7,7 +7,7 @@ import (
 	"crypto/sha256"
 	"crypto/x509"
 
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 	"github.com/pkg/errors"
 )
 

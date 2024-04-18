@@ -3,10 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/bloxapp/ssv-spec/ssv/spectest/tests"
-	"github.com/bloxapp/ssv-spec/types"
-	comparable2 "github.com/bloxapp/ssv-spec/types/testingutils/comparable"
-	"github.com/pkg/errors"
 	"log"
 	"os"
 	"path/filepath"
@@ -14,7 +10,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/bloxapp/ssv-spec/ssv/spectest"
+	"github.com/bloxapp/ssv-spec-genesis/ssv/spectest/tests"
+	"github.com/bloxapp/ssv-spec-genesis/types"
+	comparable2 "github.com/bloxapp/ssv-spec-genesis/types/testingutils/comparable"
+	"github.com/pkg/errors"
+
+	"github.com/bloxapp/ssv-spec-genesis/ssv/spectest"
 )
 
 //go:generate go run main.go

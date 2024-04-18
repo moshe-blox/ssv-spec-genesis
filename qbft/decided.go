@@ -3,7 +3,7 @@ package qbft
 import (
 	"bytes"
 
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/bloxapp/ssv-spec-genesis/types"
 	"github.com/pkg/errors"
 )
 
