@@ -1,8 +1,8 @@
 package startinstance
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // InvalidValue tests a starting an instance for an invalid value (not passing value check)

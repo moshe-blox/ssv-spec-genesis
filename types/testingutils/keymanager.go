@@ -14,8 +14,8 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	ssz "github.com/ferranbt/fastssz"
 	"github.com/herumi/bls-eth-go-binary/bls"
+	"github.com/moshe-blox/ssv-spec/types"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/types"
 )
 
 type testingKeyManager struct {

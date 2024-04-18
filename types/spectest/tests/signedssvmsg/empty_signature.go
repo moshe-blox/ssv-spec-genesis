@@ -1,6 +1,6 @@
 package signedssvmsg
 
-import "github.com/ssvlabs/ssv-spec/types"
+import "github.com/moshe-blox/ssv-spec/types"
 
 // EmptySignature tests an invalid SignedSSVMessageTest with empty signature
 func EmptySignature() *SignedSSVMessageTest {

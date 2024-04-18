@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
-	typescomparable "github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
+	typescomparable "github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 )
 
 type SpecTest struct {

@@ -1,9 +1,9 @@
 package commit
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // NoPrevAcceptedProposal tests a commit msg received without a previous accepted proposal

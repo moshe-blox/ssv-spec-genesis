@@ -3,9 +3,9 @@ package preconsensus
 import (
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/ssv/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // InvalidMessageSignature tests SignedPartialSignatureMessage signature invalid. No error is generated since the SignedPartialSignatureMessage.Signature is no longer checked

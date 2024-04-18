@@ -3,9 +3,9 @@ package synccommitteeaggregator
 import (
 	"encoding/hex"
 
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/ssv/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // NoneAggregatorQuorum tests a quorum of selection proofs but none of which are aggregator

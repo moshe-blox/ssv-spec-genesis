@@ -1,9 +1,9 @@
 package share
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // NoPartialQuorumDuplicate tests msg with < unique f+1 signers (but f+1 signers including duplicates)

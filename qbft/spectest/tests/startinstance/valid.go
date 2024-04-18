@@ -1,9 +1,9 @@
 package startinstance
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // Valid tests a valid start instance

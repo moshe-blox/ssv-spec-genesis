@@ -2,10 +2,10 @@ package decided
 
 import (
 	"github.com/herumi/bls-eth-go-binary/bls"
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // WrongMsgType tests a non commit msg with 2f+1 signers

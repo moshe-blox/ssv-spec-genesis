@@ -1,10 +1,10 @@
 package proposal
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // PreparedPreviouslyDuplicatePrepareMsg tests a proposal for > 1 round, prepared previously with quorum of prepared msgs (2 of which are duplicates, shouldn't find quorum)

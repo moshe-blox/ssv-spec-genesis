@@ -1,11 +1,11 @@
 package roundchange
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
-	"github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 )
 
 // QuorumMsgNotPrepared tests LIVENESS where the rc msg making a quorum for round change is not prev prepared (other are) which can cause a liveness issue with isReceivedProposalJustification

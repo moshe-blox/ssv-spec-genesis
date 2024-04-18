@@ -1,11 +1,11 @@
 package commit
 
 import (
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
-	"github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 )
 
 // NoCommitQuorum tests the state of the QBFT instance when received commit messages don't create a quorum

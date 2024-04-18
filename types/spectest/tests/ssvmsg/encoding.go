@@ -1,7 +1,7 @@
 package ssvmsg
 
 import (
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // Encoding tests encoding of a ssv message

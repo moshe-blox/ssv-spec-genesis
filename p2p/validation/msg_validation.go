@@ -5,10 +5,10 @@ import (
 
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/ssv"
+	"github.com/moshe-blox/ssv-spec/types"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/ssv"
-	"github.com/ssvlabs/ssv-spec/types"
 )
 
 // MsgValidatorFunc represents a message validator

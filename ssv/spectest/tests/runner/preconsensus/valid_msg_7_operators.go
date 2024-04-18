@@ -3,9 +3,9 @@ package preconsensus
 import (
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/ssv/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // ValidMessage7Operators tests a valid SignedPartialSignatureMessage with multi PartialSignatureMessages (7 operators)

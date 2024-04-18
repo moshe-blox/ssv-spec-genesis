@@ -2,8 +2,8 @@ package share
 
 import (
 	"github.com/herumi/bls-eth-go-binary/bls"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // HasQuorum3f1 tests msg with unique 3f+1 signers

@@ -3,7 +3,7 @@ package consensusdataproposer
 import (
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // VersionedBlindedBlockValidation tests a valid consensus data with Deneb blinded block

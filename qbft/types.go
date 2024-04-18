@@ -1,8 +1,8 @@
 package qbft
 
 import (
-	"github.com/ssvlabs/ssv-spec/p2p"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/p2p"
+	"github.com/moshe-blox/ssv-spec/types"
 )
 
 type Round uint64

@@ -3,11 +3,11 @@ package preconsensus
 import (
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/ssvlabs/ssv-spec/ssv"
-	ssvcomparable "github.com/ssvlabs/ssv-spec/ssv/spectest/comparable"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
-	"github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/moshe-blox/ssv-spec/ssv"
+	ssvcomparable "github.com/moshe-blox/ssv-spec/ssv/spectest/comparable"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 )
 
 // unknownSignerSyncCommitteeContributionSC returns state comparison object for the UnknownSigner SyncCommitteeContribution versioned spec test

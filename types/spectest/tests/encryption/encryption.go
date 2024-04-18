@@ -1,7 +1,7 @@
 package encryption
 
 import (
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types"
 )
 
 // SimpleEncrypt tests simple rsa encrypt

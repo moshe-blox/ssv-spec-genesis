@@ -6,7 +6,7 @@ import (
 	"github.com/attestantio/go-eth2-client/spec"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types"
 )
 
 type SSZSpecTest struct {

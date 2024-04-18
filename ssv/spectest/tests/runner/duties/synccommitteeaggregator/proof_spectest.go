@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ssvlabs/ssv-spec/ssv"
-	"github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/moshe-blox/ssv-spec/ssv"
+	"github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 type SyncCommitteeAggregatorProofSpecTest struct {

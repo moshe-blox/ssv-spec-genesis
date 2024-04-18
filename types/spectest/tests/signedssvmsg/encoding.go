@@ -1,8 +1,8 @@
 package signedssvmsg
 
 import (
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // Encoding tests encoding of a SignedSSVMessage

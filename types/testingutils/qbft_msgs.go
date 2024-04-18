@@ -4,8 +4,8 @@ import (
 	"crypto/sha256"
 
 	"github.com/herumi/bls-eth-go-binary/bls"
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/types"
 )
 
 var TestingIdentifier = []byte{1, 2, 3, 4}

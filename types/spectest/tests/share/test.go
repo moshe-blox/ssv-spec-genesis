@@ -4,12 +4,12 @@ import (
 	reflect2 "reflect"
 	"testing"
 
-	comparable2 "github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	comparable2 "github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ssvlabs/ssv-spec/qbft"
+	"github.com/moshe-blox/ssv-spec/qbft"
 )
 
 type ShareTest struct {

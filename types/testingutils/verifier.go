@@ -7,8 +7,8 @@ import (
 	"crypto/sha256"
 	"crypto/x509"
 
+	"github.com/moshe-blox/ssv-spec/types"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/types"
 )
 
 type testingVerifier struct {

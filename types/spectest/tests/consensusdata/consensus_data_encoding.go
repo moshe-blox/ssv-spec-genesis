@@ -2,8 +2,8 @@ package consensusdata
 
 import (
 	"github.com/attestantio/go-eth2-client/spec"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 )
 
 // ConsensusDataEncoding tests encoding and decoding ConsensusData for all duties

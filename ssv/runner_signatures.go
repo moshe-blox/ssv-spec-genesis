@@ -4,8 +4,8 @@ import (
 	spec "github.com/attestantio/go-eth2-client/spec/phase0"
 	ssz "github.com/ferranbt/fastssz"
 	"github.com/herumi/bls-eth-go-binary/bls"
+	"github.com/moshe-blox/ssv-spec/types"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/types"
 )
 
 func (b *BaseRunner) signBeaconObject(

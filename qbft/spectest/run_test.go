@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ssvlabs/ssv-spec/qbft/spectest/tests/timeout"
+	"github.com/moshe-blox/ssv-spec/qbft/spectest/tests/timeout"
 
-	"github.com/ssvlabs/ssv-spec/qbft"
-	tests2 "github.com/ssvlabs/ssv-spec/qbft/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/qbft"
+	tests2 "github.com/moshe-blox/ssv-spec/qbft/spectest/tests"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 	"github.com/stretchr/testify/require"
 )
 

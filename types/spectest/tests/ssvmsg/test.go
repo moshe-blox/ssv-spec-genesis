@@ -4,10 +4,10 @@ import (
 	reflect2 "reflect"
 	"testing"
 
-	comparable2 "github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	comparable2 "github.com/moshe-blox/ssv-spec/types/testingutils/comparable"
 
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/moshe-blox/ssv-spec/types"
+	"github.com/moshe-blox/ssv-spec/types/testingutils"
 	"github.com/stretchr/testify/require"
 )
 
